@@ -1,0 +1,41 @@
+.portfolio {
+    display: flex;
+    gap: var(--gap);
+    margin-bottom: 100px;
+}
+
+.portfolio-screenshot {
+    border-radius: 50%;
+    width: clamp(175px, 20vw, 300px);
+    height: clamp(175px, 20vw, 300px);
+}
+
+.portfolio:nth-child(odd) .portfolio-screenshot {
+    order: 1;
+}
+
+#heading-portfolio {
+    margin-top:-100px;
+}
+
+#heading-experience {
+    margin-top:-180px;
+}
+
+#heading-blog {
+    margin-top:-120px;
+}
+
+#heading-hireme{
+    margin-top: 100px;
+}
+
+.footer {
+    margin-top: -140px;
+}
+
+@media (max-width: 37.5rem) {
+    .portfolio {
+        display: block;
+    }
+}

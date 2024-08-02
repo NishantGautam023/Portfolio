@@ -1,0 +1,40 @@
+#intro {
+    position: relative; /* for scroll-down */
+}
+
+#intro-h1 {
+    margin-bottom: 0;
+}
+#intro-h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    overflow-wrap: break-word;
+}
+
+#intro p {
+    margin-block: 0;
+}
+
+#intro-h2 span {
+    color: #BD53ED;
+    position: relative;
+}
+
+#intro-h2 span::before {
+    content: "";
+    height: 55px;
+    width: 3px;
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    background: #BD53ED;
+    transform: translateY(-45%);
+    animation: blink 0.7s infinite;
+
+}
+#intro-h2 span.stop-blinking::before {
+    animation: none;
+}
+@keyframes blink {
+    50% { opacity: 0 }
+}
