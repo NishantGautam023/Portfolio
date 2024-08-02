@@ -111,4 +111,3 @@ const getViewsCount = async () => {
 
 getViewsCount();
 
-

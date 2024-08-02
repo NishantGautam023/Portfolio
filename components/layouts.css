@@ -17,6 +17,7 @@
     .layout-section {
         padding-bottom: 100px;
     }
+
     .layout-grid-half {
         grid-template-columns: 1fr;
     }
@@ -96,6 +97,7 @@ a {
     line-height: 1.6;
     padding: 0.25em;
 }
+
 .nav-tabs .tab.active {
     border-bottom: 7px solid var(--text-color);
 }
@@ -116,6 +118,7 @@ a {
     max-width: 450px;
     display: none;
 }
+
 .tab-content.show {
     display: block;
 }
