@@ -100,27 +100,5 @@ tabs.forEach((tab) => {
     });
 });
 
-// Views Counter
-// const views = document.querySelector(".side .text--sm");
-// const getViewsCount = async () => {
-//     try {
 
-//          const response = await fetch(
-//             "https://rkt4nstjpl7w2xpn6hlba6hc7q0ytbnd.lambda-url.ca-central-1.on.aws"
-//         );
-//         if (!response.ok) {
-//             throw new Error(
-//                 `Http Error: ${response.status} ${response.statusText}`
-//             );
-//         }
-
-//         const data = await response.json();
-//         views.textContent = `👀 views : ${data}`;
-//     } catch (error) {
-//         console.error("An Error has occurred:", error);
-//         views.textContent = "Faild to load views";
-//     }
-// };
-
-// getViewsCount();
 
